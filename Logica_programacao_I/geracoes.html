@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+    }
+
+    function mostra(texto){
+        document.write(texto);
+        pulaLinha();
+    }
+
+    var anoDescobrimento = 1500;
+    var anoAtual = 2020;
+
+    var anosGeracao = 28;
+
+    mostra("Passaram-se " + Math.round((anoAtual - anoDescobrimento)/anosGeracao) + " gerações.");
+    mostra("Boa noite!");
+</script>
